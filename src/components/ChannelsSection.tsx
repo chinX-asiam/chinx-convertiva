@@ -21,56 +21,56 @@ const channelCategories = [
     id: "entertainment",
     name: "Entertainment",
     logos: [
-      "https://via.placeholder.com/90x50.png?text=HBO",
-      "https://via.placeholder.com/90x50.png?text=AMC",
-      "https://via.placeholder.com/90x50.png?text=Showtime",
-      "https://via.placeholder.com/90x50.png?text=FX",
-      "https://via.placeholder.com/90x50.png?text=TNT",
-      "https://via.placeholder.com/90x50.png?text=USA",
-      "https://via.placeholder.com/90x50.png?text=ABC",
-      "https://via.placeholder.com/90x50.png?text=CBS",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/AMC_logo_2016.svg/512px-AMC_logo_2016.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/512px-Showtime.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/512px-USA_Network_logo_%282016%29.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/ABC_logo_2021.svg/512px-ABC_logo_2021.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/CBS_2020_logo.svg/512px-CBS_2020_logo.svg.png",
     ]
   },
   {
     id: "sports",
     name: "Sports",
     logos: [
-      "https://via.placeholder.com/90x50.png?text=ESPN",
-      "https://via.placeholder.com/90x50.png?text=Fox+Sports",
-      "https://via.placeholder.com/90x50.png?text=NBA+TV",
-      "https://via.placeholder.com/90x50.png?text=NFL",
-      "https://via.placeholder.com/90x50.png?text=UFC",
-      "https://via.placeholder.com/90x50.png?text=MLB",
-      "https://via.placeholder.com/90x50.png?text=NBC+Sports",
-      "https://via.placeholder.com/90x50.png?text=Sky+Sports",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_logo.svg/512px-2015_Fox_Sports_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/National_Football_League_logo.svg/512px-National_Football_League_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/512px-UFC_Logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/512px-Major_League_Baseball_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NBC_Sports_2023.svg/512px-NBC_Sports_2023.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sky_Sports_logo_2020.svg/512px-Sky_Sports_logo_2020.svg.png",
     ]
   },
   {
     id: "news",
     name: "News",
     logos: [
-      "https://via.placeholder.com/90x50.png?text=CNN",
-      "https://via.placeholder.com/90x50.png?text=BBC",
-      "https://via.placeholder.com/90x50.png?text=FOX+News",
-      "https://via.placeholder.com/90x50.png?text=MSNBC",
-      "https://via.placeholder.com/90x50.png?text=CNBC",
-      "https://via.placeholder.com/90x50.png?text=Al+Jazeera",
-      "https://via.placeholder.com/90x50.png?text=Sky+News",
-      "https://via.placeholder.com/90x50.png?text=Euronews",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/512px-BBC_Logo_2021.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MSNBC_2021.svg/512px-MSNBC_2021.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/512px-CNBC_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky-news-logo.png/512px-Sky-news-logo.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Euronews_2016_logo.svg/512px-Euronews_2016_logo.svg.png",
     ]
   },
   {
     id: "international",
     name: "International",
     logos: [
-      "https://via.placeholder.com/90x50.png?text=Zee+TV",
-      "https://via.placeholder.com/90x50.png?text=Star+Plus",
-      "https://via.placeholder.com/90x50.png?text=TV5",
-      "https://via.placeholder.com/90x50.png?text=RAI",
-      "https://via.placeholder.com/90x50.png?text=Univision",
-      "https://via.placeholder.com/90x50.png?text=TVE",
-      "https://via.placeholder.com/90x50.png?text=RTL",
-      "https://via.placeholder.com/90x50.png?text=Telemundo",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Zee_TV_Logo_%282017%29.svg/512px-Zee_TV_Logo_%282017%29.svg.png",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Star_Plus_2016.svg/512px-Star_Plus_2016.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV5_Logo_2021.svg/512px-TV5_Logo_2021.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_1_-_Logo_2016.svg/512px-Rai_1_-_Logo_2016.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Logo_de_Univision.svg/512px-Logo_de_Univision.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/512px-Logo_TVE-Internacional.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RTL_-_Logo_2021.svg/512px-RTL_-_Logo_2021.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png",
     ]
   }
 ];
@@ -117,7 +117,7 @@ const ChannelsSection = () => {
           </div>
         </div>
         
-        <Tabs defaultValue="entertainment" className="w-full">
+        <Tabs defaultValue="streaming" className="w-full">
           <TabsList className="w-full flex justify-center mb-10 bg-transparent">
             {channelCategories.map(category => (
               <TabsTrigger 
@@ -138,7 +138,7 @@ const ChannelsSection = () => {
                     key={idx} 
                     className="p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors flex items-center justify-center h-20"
                   >
-                    <img src={logo} alt="Channel logo" className="max-h-full" />
+                    <img src={logo} alt={`${category.name} channel logo`} className="max-h-full max-w-full object-contain" />
                   </div>
                 ))}
               </div>
