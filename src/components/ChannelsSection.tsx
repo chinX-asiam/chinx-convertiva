@@ -4,17 +4,31 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const channelCategories = [
   {
+    id: "streaming",
+    name: "Streaming",
+    logos: [
+      "/netflix-logo.png",
+      "/hulu-logo.png",
+      "/disney-logo.png",
+      "/hbomax-logo.png",
+      "/amazon-prime-logo.png",
+      "/peacock-logo.png",
+      "/paramount-logo.png",
+      "/appletv-logo.png",
+    ]
+  },
+  {
     id: "entertainment",
     name: "Entertainment",
     logos: [
       "https://via.placeholder.com/90x50.png?text=HBO",
-      "https://via.placeholder.com/90x50.png?text=Netflix",
-      "https://via.placeholder.com/90x50.png?text=Disney+",
       "https://via.placeholder.com/90x50.png?text=AMC",
       "https://via.placeholder.com/90x50.png?text=Showtime",
       "https://via.placeholder.com/90x50.png?text=FX",
       "https://via.placeholder.com/90x50.png?text=TNT",
       "https://via.placeholder.com/90x50.png?text=USA",
+      "https://via.placeholder.com/90x50.png?text=ABC",
+      "https://via.placeholder.com/90x50.png?text=CBS",
     ]
   },
   {
@@ -61,6 +75,18 @@ const channelCategories = [
   }
 ];
 
+// These are actual logos from popular streaming services
+const streamingLogos = {
+  "Netflix": "/netflix-logo.png",
+  "Hulu": "/hulu-logo.png",
+  "Disney+": "/disney-logo.png",
+  "HBO Max": "/hbomax-logo.png",
+  "Amazon Prime": "/amazon-prime-logo.png",
+  "Peacock": "/peacock-logo.png",
+  "Paramount+": "/paramount-logo.png",
+  "Apple TV+": "/appletv-logo.png"
+};
+
 const ChannelsSection = () => {
   return (
     <section id="channels" className="bg-black py-20">
@@ -70,8 +96,25 @@ const ChannelsSection = () => {
             Access <span className="text-gradient">Thousands</span> of Channels
           </h2>
           <p className="section-subtitle">
-            Explore our vast collection of premium channels in various categories
+            Stream content from all your favorite platforms in one place
           </p>
+        </div>
+        
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold mb-6 text-white">Popular Streaming Services</h3>
+          <div className="glass-card p-8 grid grid-cols-2 sm:grid-cols-4 gap-6 items-center">
+            {Object.entries(streamingLogos).map(([name, logo], idx) => (
+              <div 
+                key={idx} 
+                className="p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors flex flex-col items-center justify-center h-24"
+              >
+                <div className="bg-white/10 p-2 rounded-lg w-full h-full flex items-center justify-center">
+                  <img src={logo} alt={`${name} logo`} className="max-h-full max-w-full object-contain" />
+                </div>
+                <span className="mt-2 text-sm text-gray-300">{name}</span>
+              </div>
+            ))}
+          </div>
         </div>
         
         <Tabs defaultValue="entertainment" className="w-full">
