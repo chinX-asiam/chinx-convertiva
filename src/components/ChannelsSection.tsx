@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -38,7 +37,7 @@ const channelCategories = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_logo.svg/512px-2015_Fox_Sports_logo.svg.png",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png",
-      "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/National_Football_League_logo.svg/512px-National_Football_League_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/National_Football_League_logo.svg/512px-National_Football_League_logo.svg.png",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/512px-UFC_Logo.svg.png",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/512px-Major_League_Baseball_logo.svg.png",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NBC_Sports_2023.svg/512px-NBC_Sports_2023.svg.png",
